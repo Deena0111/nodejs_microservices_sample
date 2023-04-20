@@ -26,6 +26,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('emails');
+    await queryInterface.dropTable('emails')
   }
 };

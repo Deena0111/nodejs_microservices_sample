@@ -1,6 +1,5 @@
 const models = require('../models')
 const Joi=require('joi')
-
 //create one api post details 
 function sendEmail(req, res, next){
     const info = {

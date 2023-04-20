@@ -1,7 +1,7 @@
 const express = require('express')
 const contactController=require('../controller/contact.controller')
 
-const router=express.Router();
+const router=express.Router()
 
 router.post('/v1/send-emails',contactController.sendEmail)
 router.get('/v1/getAllMails',contactController.getAllMail)
