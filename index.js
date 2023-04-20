@@ -7,3 +7,7 @@ const server=http.createServer(app);
 server.listen(port,()=>{
     console.log(`Gateway server is running on ${port}`);
 });
+
+app.get('/test',(req,res)=>{
+    res.send("testing")
+})
