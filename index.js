@@ -8,6 +8,6 @@ server.listen(port,()=>{
     console.log(`Gateway server is running on ${port}`);
 });
 
-app.get('/test',(req,res)=>{
-    res.send("testing")
+app.get('/',(req,res)=>{
+    res.send("Hello world")
 })
